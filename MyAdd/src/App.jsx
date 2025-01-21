@@ -5,7 +5,7 @@ function App() {
 
   const [number, setNumber] = useState();
   const [number2, setNumber2] =useState();
-  const [total, setTotal] = useState(number + number2);
+  const [total, setTotal] = useState(number + number2|| 0);
 
   function addtotal (){
     setTotal(number + number2)
