@@ -12,12 +12,13 @@ function App() {
   }
   return (
   <div className="App">
-    <h1>Let’s ADD Some Numbers Yeah?</h1>
+    <h1>How much espresso can fuel my day before I turn into a caffeine superhero? 🚀</h1>
+    <h1> Add Them Up!</h1>
     <div className='input-numbers'>
       <input type= "number" placeholder='0' value={number} onChange={e => setNumber(+e.target.value)} />
       <input type= "number" placeholder='0' value={number2} onChange={e => setNumber2(+e.target.value)} />
        </div>
-      <button onClick={addtotal}>Add Numbers</button> 
+      <button onClick={addtotal}>☕︎🤎</button> 
       <h2>{total}</h2>
       </div>
            
